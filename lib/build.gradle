@@ -11,8 +11,6 @@ plugins {
     id 'java-library'
 }
 
-group = 'com.example.math'
-
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
