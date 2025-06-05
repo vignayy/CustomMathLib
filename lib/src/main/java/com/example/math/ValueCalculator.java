@@ -1,0 +1,29 @@
+package com.example.math;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * A simple utility class to perform specific mathematical calculations.
+ * This class is part of the CustomMathLib library.
+ */
+public class ValueCalculator {
+
+    /**
+     * Calculates two values based on the input integers a and b.
+     * The first value is (a + 2b).
+     * The second value is (2a + b).
+     *
+     * @param a The first integer input.
+     * @param b The second integer input.
+     * @return A List of Integers containing the two calculated values: [a + 2b, 2a + b].
+     */
+    public List<Integer> calculateValues(int a, int b) {
+        List<Integer> results = new ArrayList<>();
+        // Calculate a + 2b
+        results.add(a + 2 * b);
+        // Calculate 2a + b
+        results.add(2 * a + b);
+        return results;
+    }
+}
